@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grade Track System</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <!-- By the end of this project Mark Will Be able
+    to create objects,push objects to arrays, save to local storage, mapping data to table 
+    -->
+    <h1>Student Grade Track System</h1>
+    <form action="" id="student-data">
+        <input type="text" id="name" placeholder="Enter Student Name" required>
+        <input type="text" id="regNumber" placeholder="Enter Student Number" required>
+        <input type="number" id="cat1" placeholder="Cat 1 (X/30)" required>
+        <input type="number" id="cat2"  placeholder="Cat 2 (X/30) " required>
+        <input type="number" id="exam" placeholder="Exam (X/70)" required>
+        <button type="submit">Add Student Details</button>
+    </form>
+    <!-- Table to store the student data -->
+     <h2>Student Records</h2>
+     <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Reg No</th>
+                <th>Cat 1</th>
+                <th>Cat 2</th>
+                <th>Exam</th>
+                <th>Average</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+     </table>
+    <script src="index.js"></script>
 </body>
 </html>
